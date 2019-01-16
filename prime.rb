@@ -7,8 +7,7 @@ def prime?(number)
     elsif number.even?
         return false
     else
-       range = (2...number).to_a
-      #  binding.pry
+       range = (2...number).to_a #to an array
        range.none? do |n|
          number % n == 0  #remander is it equal to 0
        end

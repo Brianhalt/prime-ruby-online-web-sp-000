@@ -1,5 +1,5 @@
 # Add  code here!
-reqyuire 'pry'
+require 'pry'
 def prime?(number)
   if number > 1
     if number == 2

@@ -8,11 +8,12 @@ def prime?(number)
         return false
     else
        range = (2...number).to_a
-       binding.pry
+      #  binding.pry
        range.none? do |n|
          number % n == 0  #remander is it equal to 0
        end
     end
-  end
+  else
     return false
+  end
 end
